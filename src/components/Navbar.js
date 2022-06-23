@@ -23,7 +23,7 @@ const Navbar = () => {
           </span>
         </div>
         <div>
-          <span className="middleNav">Learn Africa</span>
+          <span className="middleNav">Get to know about Africa</span>
         </div>
         <div>
           <span className="rightNav">

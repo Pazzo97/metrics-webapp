@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { getDataFromApi, countryFilter } from '../redux/metric-redux';
+import africa from '../images/africa.png';
 
 const Metrics = () => {
   const listing = useSelector((state) => state.metricsReducer, shallowEqual);
@@ -32,12 +33,18 @@ const Metrics = () => {
     <div className="country">
       <div className="countryHeading">
         <div className="countryHeadingImage">
-          <img src="africa.png" alt="Africa map" />
+          <img src={africa} alt="Africa map" />
         </div>
         <div className="countryHeadingTitle">
           <div>
             <h1>AFRICA</h1>
-            <span>The heart of hope</span>
+            <br />
+            <span>
+              A continent that spans the hemispheres
+              {' '}
+              <br />
+              Home to some of the world’s oldest civilisations
+            </span>
           </div>
         </div>
       </div>
@@ -46,17 +53,17 @@ const Metrics = () => {
         <form className="book-form" onSubmit={handleSubmit}>
           <input
             type="text"
-            className="inputcountryTitle"
+            className="inputcountryTitle searchBox"
             placeholder="Search by country"
             onChange={handleInputTitle}
             value={countryTitle}
           />
-          <button className="submit-btn" type="submit">
+          <button className="submit-btn seachButton" type="submit">
             Search
           </button>
         </form>
         <button
-          className="submit-btn"
+          className="submit-btn clearButton"
           type="button"
           onClick={() => getDataFromApi(dispatch)}
         >
@@ -68,7 +75,7 @@ const Metrics = () => {
           <li
             className="countrylistItem"
             style={{
-              backgroundImage: `linear-gradient(rgb(66 105 176 / 80%), rgb(66 105 176 / 80%)), url(${country.flags})`,
+              backgroundImage: `url(${country.flags})`,
             }}
             key={country.id}
           >

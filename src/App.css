@@ -1,3 +1,186 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   margin: 0;
+  color: #fff9ff;
+  background-color: #041229;
+}
+
+header {
+  background: #041229;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background: #041229;
+  font-size: 20px;
+}
+
+.leftNav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.countryHeading {
+  display: flex;
+  height: 200px;
+  box-shadow: rgba(233, 236, 240, 0.25) 0 54px 55px, rgb(236, 241, 241) 0 -12px 30px, rgba(216, 221, 221, 0.89) 0 4px 6px, rgb(235, 240, 243) 0 12px 13px, rgba(250, 250, 250, 0.884) 0 -3px 5px;
+}
+
+.countryHeadingImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryHeadingImage img {
+  width: 100px;
+}
+
+.countryHeadingTitle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.countryHeadingTitle h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.countrylistTitle {
+  background-color: #041229;
+  padding: 10px 10px;
+  max-height: 400px;
+  margin: 30px auto;
+}
+
+.countrylistTitle h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff9ff;
+}
+
+.countrylistItem {
+  flex: 50%;
+  background-color: #041229;
+  background-size: 40% 40%;
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  background-position-y: 20px;
+}
+
+.active-link {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  margin: 10px;
+  padding: 12px;
+  border: 2px solid #fff9ff;
+}
+
+.countrylistItem h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.countryDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #041229;
+}
+
+tr:nth-child(even) {
+  background-color: #113028;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #fff;
+  font-size: 20px;
+}
+
+.seachButton {
+  background-color: #fff;
+  border: none;
+  color: #041229;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.clearButton {
+  background-color: #fff;
+  border: none;
+  color: #041229;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
