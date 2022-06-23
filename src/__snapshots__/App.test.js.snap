@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component test CountryDetails renders correctly 1`] = `
+<div
+  className="country"
+/>
+`;
+
+exports[`component test Metrics renders correctly 1`] = `
+<div
+  className="country"
+>
+  <div
+    className="countryHeading"
+  >
+    <div
+      className="countryHeadingImage"
+    >
+      <img
+        alt="Africa map"
+        src="africa.png"
+      />
+    </div>
+    <div
+      className="countryHeadingTitle"
+    >
+      <div>
+        <h1>
+          AFRICA
+        </h1>
+        <br />
+        <span>
+          A continent that spans the hemispheres
+           
+          <br />
+          Home to some of the world’s oldest civilisations
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="countrylistTitle"
+  >
+    <h3>
+      LIST OF COUNTRIES
+    </h3>
+    <form
+      className="book-form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="inputcountryTitle searchBox"
+        onChange={[Function]}
+        placeholder="Search by country"
+        type="text"
+        value=""
+      />
+      <button
+        className="submit-btn seachButton"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <button
+      className="submit-btn clearButton"
+      onClick={[Function]}
+      type="button"
+    >
+      ClearSearch
+    </button>
+  </div>
+  <ul />
+</div>
+`;
+
+exports[`component test NavLink to match snapshot 1`] = `
+<a
+  className=""
+  href="/countryDetails/1"
+  onClick={[Function]}
+/>
+`;

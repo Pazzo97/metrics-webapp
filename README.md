@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Metrics App for African countries
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This project is about an app that displays the total number of countries in the African continent. It also displays the key metrics of each country, like the population, the languages spoken, the driving side, and the capital, and many more.
 
-## Available Scripts
+## Built With:
 
-In the project directory, you can run:
+- Html5
+- CSS3
+- Javascript
+- React
+- Redux
+- ES6
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Desktop version homepage
+<img src='src/images/desktop.homepage.png'>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Desktop version details page
+<img src='src/images/desktop.details.png'>
 
-### `npm test`
+### Phone version homepage
+<img src='src/images/phone.homepage.png'>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Phone version details page
+<img src='src/images/phone.details.png'>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Live link](https://african-countries.herokuapp.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Video Presentation
 
-### `npm run eject`
+- [Click Here](https://www.loom.com/share/6bbd3ad6acb843c4a517d345e0bcbc97)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a copyof this project you can follow these simple steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- run npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Prerequisites
 
-## Learn More
+- browser (e.g. Google Chrome)
+- text editor (e.g. VSCode)
+- terminal/CLI
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Copy these
 
-### Code Splitting
+  ```sh
+  git clone https://github.com/Pazzo97/metrics-webapp.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  ```
 
-### Analyzing the Bundle Size
+- then
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  ```sh
+  cd metrics-webapp
 
-### Making a Progressive Web App
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- open with vs code and run with live server.
+- Install NPM packages
+  ```sh
+  npm install
+  ```
 
-### Advanced Configuration
+### Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Run
+  ```sh
+  npm test
+  ```
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+👤 **Author**
 
-### `npm run build` fails to minify
+- GitHub: [@Pazzo97](https://github.com/Pazzo97)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/patrick-mukunzi-8389861a9/)
+- Twitter: [@mukunzipat](https://twitter.com/mukunzipat)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Feel free to check the [issues page](https://github.com/Pazzo97/metrics-webapp/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [REST Countries](https://restcountries.com/v3.1/all) - for the API I used for dispalying the countries and each and everyone details.
+
+- [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) for the Design of the project.
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
